@@ -245,18 +245,18 @@ header {
     font-variant: normal;
     font-weight: 600;
     color: white;
-    line-height: 15.4px;
+    margin: 10px 0px -2px 0px;
     text-align: center;
 }
 
 .deets-text {
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     width: 250px;
-    color: white;
+    color: #D3D3D3;
     text-align: center;
 }
 

@@ -110,6 +110,23 @@ textarea {
     margin-right: auto;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: #702018;
+}
+
+.section-header {
+  text-align: center;
+  color: white;
+}
+
+.FAQs .section-header {
+  color: black;
+}
+
 header {
     width: 100%;
     background-image: url("../img/header.png");
@@ -124,34 +141,24 @@ header {
 }
 
 .title {
-    font-family: "Open Sans";
     font-size: 48px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
     color: white;
     margin: 10px 0px 10px;
-    text-align: center;
 }
 
 .sponsor {
-    font-family: "Open Sans";
     font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
     color: white;
-    text-align: center;
     margin: 15px 0px 20px;
 }
 
 .description {
-    width: 500px;
+    width: 520px;
     color: white;
     margin: 10px 0px 20px 0px;
 }
 
-.button {
+.signup-button {
     background-color: #EA4433;
     border: none;
     color: white;
@@ -161,6 +168,11 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.signup-button:hover {
+  color: white;
+  background-color: #BC3628;
 }
 
 .navbar {
@@ -184,10 +196,20 @@ header {
     padding-left: 10px;
 }
 
+.navbar .nav-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
  .details {
     background-color: #EA4433;
-    padding-top: 20px;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.logo {
+  text-align: center;
 }
 
 .card-items {
@@ -288,7 +310,7 @@ footer .social-icon {
 }
 
 footer .social-icon:hover {
-    color: #FFC212;
+    color: #702018;
 }
 
 p {

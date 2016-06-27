@@ -231,10 +231,10 @@ header {
     align-items: center;
     justify-content: center;
 
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
-    font-size:18px;
+    font-size:20px;
     color: white;
     background-color: #BC3628;
 }
@@ -243,7 +243,6 @@ header {
     font-size: 20px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 600;
     color: white;
     margin: 10px 0px -2px 0px;
     text-align: center;
@@ -255,7 +254,7 @@ header {
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    width: 250px;
+    width: 290px;
     color: #D3D3D3;
     text-align: center;
 }

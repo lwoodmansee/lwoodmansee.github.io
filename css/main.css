@@ -113,7 +113,7 @@ h1 { font-size: 3em; }
 }
 
 .bottom-logo {
-  width: 80%;
+  width: 70%;
 }
 
 a {
@@ -231,6 +231,11 @@ header {
     align-self: flex-start;
 }
 
+.help-item {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
 .circle-icon {
     display: flex;
     flex-direction: column;
@@ -265,11 +270,23 @@ header {
 section .FAQs {
     padding: none;
     margin-top: -20px;
+    margin-bottom: 30px;
 }
 
 .FAQs-text {
     padding: none;
     page-align: middle;
+}
+
+.help {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.help-items {
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .question {
@@ -336,6 +353,15 @@ p {
 
   .card-items {
     flex-wrap: wrap;
+  }
+
+  .help-items {
+    display: block;
+  }
+
+  .help {
+    width: 70%;
+    margin: auto;
   }
 }
 

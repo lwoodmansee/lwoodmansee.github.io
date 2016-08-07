@@ -181,6 +181,16 @@ header {
   background-color: #BC3628;
 }
 
+.virtual-button {
+  background-color: white;
+  color: black;
+}
+
+.virtual-button:hover {
+  color: white;
+  background-color: #EA4433;
+}
+
 .navbar {
     position: absolute;
     right: 0;
@@ -212,6 +222,11 @@ header {
   color: white;
   padding-top: 20px;
   padding-bottom: 30px;
+}
+
+.virtual {
+  background-color: #ED974C;
+  color: white;
 }
 
 .logo {

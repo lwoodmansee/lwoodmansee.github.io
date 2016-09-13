@@ -187,8 +187,18 @@ header {
 }
 
 .virtual-button:hover {
-  color: white;
+  color: black;
+  background-color: #d3d3d3;
+}
+
+.texas-button {
   background-color: #EA4433;
+  color: white;
+}
+
+.texas-button:hover {
+  color: white;
+  background-color: #BC3628;
 }
 
 .navbar {
@@ -227,6 +237,11 @@ header {
 .virtual {
   background-color: #ED974C;
   color: white;
+}
+
+.texas {
+  background-color: white;
+  color: #000000;
 }
 
 .logo {

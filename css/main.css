@@ -332,6 +332,11 @@ section .FAQs {
     text-align: left;
 }
 
+.map {
+    width: 70%;
+    margin: auto;
+}
+
 .footer {
     background-color: #EA4433;
     padding: 20px;

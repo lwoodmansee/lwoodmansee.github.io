@@ -126,6 +126,7 @@ a:hover {
 
 .section-header {
   font-size: 1.7rem;
+  padding-bottom: 50px;
   text-align: center;
   color: white;
 }
@@ -281,19 +282,19 @@ header {
 }
 
 .deets-title {
-    font-size: 20px;
+    font-size: 112px;
     font-style: normal;
     font-variant: normal;
     color: white;
-    margin: 10px 0px -2px 0px;
+    margin: 10px 0px 30px 0px;
     text-align: center;
 }
 
 .deets-text {
-    font-size: 13px;
+    font-size: 24px;
     font-weight: 500;
     width: 290px;
-    color: #f8c6c1;
+    color: white;
     text-align: center;
 }
 
@@ -379,7 +380,7 @@ p {
   }
 
   .description {
-    width: 95%;
+    width: 80%;
   }
 
   .container {

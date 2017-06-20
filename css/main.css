@@ -166,7 +166,7 @@ header {
 }
 
 .signup-button {
-    background-color: #EA4433;
+    background-color: #ED5846;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -174,7 +174,8 @@ header {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .signup-button:hover {

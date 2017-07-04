@@ -135,9 +135,25 @@ a:hover {
   color: black;
 }
 
-header {
+.header-home {
     width: 100%;
     background-image: url("../img/2016-race-to-stop-traffick-runners.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 646px;
+}
+
+.header-dc {
+    width: 100%;
+    background-image: url("../img/lake-accontink-park-5k-race.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 646px;
+}
+
+.header-dallas {
+    width: 100%;
+    background-image: url("../img/westlake-park-5k-race.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 646px;
@@ -176,6 +192,10 @@ header {
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
+}
+
+.signup-button a {
+    text-decoration: none;
 }
 
 .signup-button:hover {
@@ -308,6 +328,11 @@ section .FAQs {
 .FAQs-text {
     padding: none;
     page-align: middle;
+}
+
+.FAQs a {
+    padding: none;
+    color: #ED5846;
 }
 
 .help {

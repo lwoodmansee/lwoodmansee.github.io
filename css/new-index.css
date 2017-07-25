@@ -1,0 +1,188 @@
+html {
+  color: #6E615F;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.red {
+  color: #EF5740;
+}
+
+li a {
+  color: #6E615F;
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+/* HEADER / NAV */
+header {
+  border-bottom: 1px solid #979797;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.50);
+}
+
+header .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 15px;
+  margin-left: 10px;
+  border-right: 2px solid #6E615F;
+}
+
+nav ul li:last-of-type {
+  border: none;
+}
+
+.logo-title {
+  align-items: center;
+}
+
+.logo-title img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  padding: 5px 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.hero {
+  padding: 70px 10px;
+}
+
+.hero p {
+  width: 65%;
+}
+
+.dc, .tx {
+  height: 400px;
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 13px;
+  }
+  .choose-race {
+    flex-direction: column;
+  }
+  .dc, .tx {
+    width: 100%;
+  }
+  .about {
+    flex-direction: column !important;
+  }
+  header .container {
+    flex-direction: column;
+  }
+  .hero p {
+    width: 100%;
+  }
+  .about img {
+    padding: none !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.tx {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('../img/westlake-park-5k-race.jpg');
+}
+
+.tx:hover {
+  background-image: url('../img/westlake-park-5k-race.jpg');
+  color: transparent;
+}
+
+.dc {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('../img/lake-accontink-park-5k-race.jpg');
+}
+
+.dc:hover {
+  background-image: url('../img/lake-accontink-park-5k-race.jpg');
+  color: transparent;
+}
+
+.choose-race h2 {
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.choose-race p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.choose-race small {
+  font-weight: 300;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.about .copy {
+  flex-grow: 2;
+  font-weight: 300;
+}
+
+.about img {
+  height: 220px;
+  width: 220px;
+  padding: 70px;
+  align-self: center;
+}
+
+footer {
+  background-color: #6B6160;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  padding: 10px;
+}
+
+footer h3 {
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 24px;
+
+}

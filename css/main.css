@@ -370,30 +370,6 @@ section .FAQs {
     margin: auto;
 }
 
-.footer {
-    background-color: #ED5846;
-    padding: 20px;
-}
-
-.footer h3 {
-    text-align: center;
-    color: white;
-}
-
-footer .container {
-    display: flex;
-    justify-content: center;
-}
-
-footer .social-icon {
-    padding: 0 20px;
-    color: white;
-}
-
-footer .social-icon:hover {
-    color: #702018;
-}
-
 p {
     font-size: 1em;
     font-weight: 400;

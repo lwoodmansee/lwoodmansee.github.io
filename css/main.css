@@ -106,8 +106,6 @@ h1 { font-size: 3em; }
 
 .container {
     width: 80%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -164,7 +162,7 @@ a:hover {
     margin: auto;
 }
 
-.title {
+.title-header {
     color: white;
     margin: 10px 0px 10px;
 }
@@ -252,7 +250,7 @@ a:hover {
 
 .navbar .nav-link:hover {
   text-decoration: none;
-  color: white;
+  color: #EA4433;
 }
 
 .details {

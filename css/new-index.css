@@ -23,7 +23,7 @@ li a {
   text-decoration: none;
 }
 
-li:hover {
+li a:hover {
   text-decoration: underline;
 }
 
